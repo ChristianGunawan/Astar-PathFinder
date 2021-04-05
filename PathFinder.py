@@ -59,17 +59,6 @@ def Astar(start, goal):
             if (cost[check_node] + treeDict[check_node][last_node] == cost[last_node]):
                 ordered_sequence.append(check_node)
                 last_node = check_node
-
+    # Reverse ordering from ordered_sequenec
     ordered_sequence.reverse()
     return closed, ordered_sequence, cost
-
-# Placeholder fungsi sementara
-def graphMaker(dictionary):
-    return True
-if __name__ == "__main__":
-    closed_set, ordered_sequence, cost_function = Astar("S", "G")
-    print(treeDict)
-    print(cost_function)
-    print(closed_set)
-    print(ordered_sequence)
-    #print(a)
