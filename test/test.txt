@@ -1,0 +1,11 @@
+ITB DagoA 10
+DagoA DagoB 25
+DagoB Goal 40
+DagoA DagoC 30
+DagoC Goal 40
+HEURISTIK
+ITB 65
+DagoA 60
+DagoB 35
+DagoC 30
+Goal 0

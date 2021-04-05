@@ -12,16 +12,7 @@ function initMap() {
       map: map,
     });
 
-    // METHOD
-
     // ZOOM KETIKA DI CLICK
-    map.addListener("center_changed", () => {
-      // 3 seconds after the center of the map has changed, pan back to the
-      // marker.
-      window.setTimeout(() => {
-        map.panTo(marker.getPosition());
-      }, 3000);
-    });
 
     marker.addListener("click", () => {
       map.setZoom(16);
