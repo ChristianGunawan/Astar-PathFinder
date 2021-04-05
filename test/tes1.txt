@@ -1,0 +1,21 @@
+S A 1
+S B 5
+S C 8
+A S 1
+A D 3
+A E 7
+A G 9
+B S 5
+B G 4
+C S 8
+C G 5
+D A 3
+E A 7
+HEURISTIK
+S 8
+A 8
+B 4
+C 3
+D 5000
+E 5000
+G 0

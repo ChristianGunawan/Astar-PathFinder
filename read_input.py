@@ -22,11 +22,13 @@ def read_input():
     toParseHeuristik = toParse[toParse.index("HEURISTIK\n") + 1:]
     for word in toParseHeuristik:
         heuristicParse = word.replace("\n", "").split(" ")
-        heuristicDict[heuristicParse[0]] = heuristicParse[1]
+        heuristicDict[heuristicParse[0]] = int(heuristicParse[1])
     #Parsing nilai jalur 
     toParseJalur = toParse[:toParse.index("HEURISTIK\n")]
     for word in toParseJalur:
         wordParse = word.replace("\n", "").split(" ")
-        pathDict[wordParse[0]][wordParse[1]] = wordParse[2]
+        # Jalur dianggap bisa 2 arah
+        pathDict[wordParse[0]][wordParse[1]] = int(wordParse[2])
+        pathDict[wordParse[1]][wordParse[0]] = int(wordParse[2])
     
     return pathDict, heuristicDict

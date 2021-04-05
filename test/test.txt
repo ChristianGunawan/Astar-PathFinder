@@ -5,7 +5,7 @@ DagoA DagoC 30
 DagoC Goal 40
 HEURISTIK
 ITB 65
-DagoA 60
-DagoB 35
+DagoA 55
+DagoB 25
 DagoC 30
 Goal 0
