@@ -83,5 +83,5 @@ def read_input2():
 def euclideanDistance(start, end):
     powerDifLat = (coordinateDict[start]["lat"] - coordinateDict[end]["lat"])**2
     powerDifLng = (coordinateDict[start]["lng"] - coordinateDict[end]["lng"])**2
-    return (powerDifLat + powerDifLng) ** (1/2)
+    return round((powerDifLat + powerDifLng) ** (1/2), 3)
 
