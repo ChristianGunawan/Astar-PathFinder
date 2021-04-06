@@ -34,7 +34,7 @@ def graphMaker(start, goal):
         else :
             node_color.append("blue")
         
-    nx.draw(G, pos , with_labels = True, node_size = 1000,  node_color = node_color)
+    nx.draw(G, pos , with_labels = True, node_size = 1200,  node_color = node_color)
     for i in range(len(ordered_sequence)):
         if(i != len(ordered_sequence) - 1):
             print(f"{ordered_sequence[i]} =>", end = " ")
