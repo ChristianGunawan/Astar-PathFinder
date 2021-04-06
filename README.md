@@ -1,13 +1,8 @@
-# Astar-PathFinder
-Tugas Kecil Strategi Algoritma
-
-install networkx, trus matplotlib
-
 disarankan menjalankan dengan vs code, biar environmentnya sama, ga ngulang"
 kalo anaconda beda env soalnya :)
 
 # Tugas Kecil Strategi Algoritma : A*-PathFinder
-> 
+> Here goes your awesome project description!
 
 ## Table of contents
 * [General info](#general-info)
@@ -29,27 +24,23 @@ Add more general information about project. What the purpose of the project is? 
 version 1.0
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+install networkx dan matplotlib
 
 ## Code Examples
 Show examples of usage:
 `put-your-code-here`
 
 ## Features
-List of features ready and TODOs for future development
+List of features 
 * Awesome feature 1
 * Awesome feature 2
 * Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 
 ## Status
 Project is finished
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+http://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2020-2021/Route-Planning-Bagian2-2021.pdf
 
 ## Contact
 Dibuat oleh :
