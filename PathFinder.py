@@ -1,12 +1,10 @@
-from read_input import read_input
+from read_input import *
 
-input = read_input()
-treeDict = input[0]
-heuristicDict = input[1]
-oneWayPathDict = input[2]
 
 #total cost for nodes visited
+treeDict = read_input2()[0]
 def Astar(start, goal):
+    heuristicDict = createHeuristicDict(goal)
     cost = {start : 0}
     """
     Input : dictionary (data structures for graph with adjacency matrix representation) 
@@ -63,3 +61,11 @@ def Astar(start, goal):
     # Reverse ordering from ordered_sequenec
     ordered_sequence.reverse()
     return closed, ordered_sequence, cost
+
+def createHeuristicDict(goal):
+    heuristicDict2 = dict()
+    for nodes in treeDict:
+        heuristicDict2[nodes] = euclideanDistance(nodes, goal)
+    return heuristicDict2
+
+print(Astar("ITB","DagoH")[1])
