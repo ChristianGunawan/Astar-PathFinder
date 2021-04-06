@@ -26,9 +26,7 @@ Add more general information about project. What the purpose of the project is? 
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+version 1.0
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
@@ -48,10 +46,13 @@ To-do list:
 * Wow improvement to be done 2
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project is finished
 
 ## Inspiration
 Add here credits. Project inspired by..., based on...
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Dibuat oleh :
+ - 13519109 - Christian Alexandro Tobing
+ - 13519199 - Christian Gunawan
+
