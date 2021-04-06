@@ -67,5 +67,3 @@ def createHeuristicDict(goal):
     for nodes in treeDict:
         heuristicDict2[nodes] = euclideanDistance(nodes, goal)
     return heuristicDict2
-
-print(Astar("ITB","DagoH")[1])
