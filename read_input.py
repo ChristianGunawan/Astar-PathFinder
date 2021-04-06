@@ -16,6 +16,7 @@ def read_input():
     """
     pathDict = defaultdict(dict)
     heuristicDict = dict()
+    oneWayPathDict = defaultdict(dict)
     toParse = f.readlines()
 
     #Parsing nilai heurisitik
@@ -30,5 +31,6 @@ def read_input():
         # Jalur dianggap bisa 2 arah
         pathDict[wordParse[0]][wordParse[1]] = int(wordParse[2])
         pathDict[wordParse[1]][wordParse[0]] = int(wordParse[2])
+        oneWayPathDict[wordParse[0]][wordParse[1]] = int(wordParse[2])
     
-    return pathDict, heuristicDict
+    return pathDict, heuristicDict, oneWayPathDict

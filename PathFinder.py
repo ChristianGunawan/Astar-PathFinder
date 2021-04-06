@@ -3,6 +3,7 @@ from read_input import read_input
 input = read_input()
 treeDict = input[0]
 heuristicDict = input[1]
+oneWayPathDict = input[2]
 
 #total cost for nodes visited
 def Astar(start, goal):
