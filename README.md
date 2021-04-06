@@ -24,7 +24,15 @@ kalo anaconda beda env soalnya :)
 version 1.0
 
 ## Setup
+Disarankan menggunakan vscode, agar menggunakan python environment yang sama
+
 install networkx dan matplotlib
+
+di cmd masing:
+pip install networkx
+pip install matplotlib
+
+Lalu jalankan Main.py
 
 ## Code Examples
 Show examples of usage:
