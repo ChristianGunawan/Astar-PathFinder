@@ -58,7 +58,7 @@ def Astar(start, goal):
             if (cost[check_node] + treeDict[check_node][last_node] == cost[last_node]):
                 ordered_sequence.append(check_node)
                 last_node = check_node
-    # Reverse ordering from ordered_sequenec
+    # Reverse ordering from ordered_sequence
     ordered_sequence.reverse()
     return closed, ordered_sequence, cost
 
