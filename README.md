@@ -18,7 +18,7 @@ kalo anaconda beda env soalnya :)
 > Algoritma A* atau A star adalah salah satu algoritma yang baik dalam menemukan  solusi proses pathfinding (pencari jalan). Algoritma ini mencari jarak rute terpendek yang akan ditempuh suatu point awal (starting point) sampai ke objek tujuan. Teknik pencarian yang digunakan dalam simulasi ini adalah menggunakan Algoritma A* dengan fungsi heuristic. Tujuan utama penelitian ini mempelajari cara kerja algoritma A* dalam mencari jarak tercepat, yang disimulasikan seperti kondisi ketika seorang mencari rute dalam keadaan jalanan macet. Simulasi ini memberikan gambaran yang lebih realistis terhadap perilaku algoritma A* dalam pencarian jarak rute terpendek
 
 ### Screenshots
-![Example screenshot](./screenshot/Screenshot 2021-04-07 033420.jpg)
+![Example screenshot](https://github.com/chrslex/Astar-PathFinder/blob/main/screenshot/MicrosoftTeams-image.png)
 
 ### Technologies
 python 3.6+
