@@ -1,0 +1,19 @@
+8
+Alun-Alun Cibadak Sudirman Museum Cikapundung ITC Yogya Taman 
+Alun-Alun 2 3 
+Cibadak 4 5
+Sudirman 3 5
+Museum -2 3
+Cikapundung -7 -4 
+ITC -1 4
+Yogya 10 10
+Taman 9 2
+MATRIKS
+0 0 0 0 0 0 0 1
+0 0 0 1 0 0 0 0
+1 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0
+0 0 0 0 0 1 0 0
+0 0 0 0 1 0 0 1
+0 0 0 0 0 1 0 1
+0 0 1 0 0 0 1 0
