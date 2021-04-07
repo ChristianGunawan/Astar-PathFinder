@@ -14,16 +14,16 @@ kalo anaconda beda env soalnya :)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+### General info
 > Algoritma A* atau A star adalah salah satu algoritma yang baik dalam menemukan  solusi proses pathfinding (pencari jalan). Algoritma ini mencari jarak rute terpendek yang akan ditempuh suatu point awal (starting point) sampai ke objek tujuan. Teknik pencarian yang digunakan dalam simulasi ini adalah menggunakan Algoritma A* dengan fungsi heuristic. Tujuan utama penelitian ini mempelajari cara kerja algoritma A* dalam mencari jarak tercepat, yang disimulasikan seperti kondisi ketika seorang mencari rute dalam keadaan jalanan macet. Simulasi ini memberikan gambaran yang lebih realistis terhadap perilaku algoritma A* dalam pencarian jarak rute terpendek
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+### Screenshots
+![Example screenshot](./screenshot/Screenshot 2021-04-07 033420.jpg)
 
-## Technologies
-version 1.0
+### Technologies
+python 3.6+
 
-## Setup
+# Setup
 Disarankan menggunakan vscode, agar menggunakan python environment yang sama
 
 di cmd masing:
@@ -39,29 +39,26 @@ pip install gmaps
 pip install request
 
 
-# Untuk masukan file biasa :
+## Untuk masukan file biasa :
 
-# Langsung jalankan Main.py
+## Langsung jalankan Main.py
 
-# Untuk berinteraksi dengan Google Map API:
+## Untuk berinteraksi dengan Google Map API:
 
-# Jalankan test.ipynb
+## Jalankan test.ipynb
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
 
-## Features
+### Features
 List of features 
 * Mengukur Jarak 2 Graf (Daklam hal ini adalah 2 titik pada maps)
 
-## Status
+### Status
 Project is finished
 
-## Inspiration
+### Inspiration
 http://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2020-2021/Route-Planning-Bagian2-2021.pdf
 
-## Contact
+### Contact
 Dibuat oleh :
  - 13519109 - Christian Alexandro Tobing
  - 13519199 - Christian Gunawan
