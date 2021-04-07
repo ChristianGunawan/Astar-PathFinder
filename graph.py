@@ -40,5 +40,8 @@ def graphMaker(start, goal):
             print(f"{ordered_sequence[i]} =>", end = " ")
         else:
             print(ordered_sequence[i])
-    print(f"Panjang lintasan adalah {distance_sum}")
+    if distance_sum == 0 :
+        print("Jalur tidak ditemukan atau menunjuk ke diri sendiri")
+    else :
+        print(f"Panjang lintasan adalah {distance_sum}")
     plt.show()

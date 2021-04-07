@@ -20,6 +20,8 @@ def Astar(start, goal):
     opened.append([current, heuristicDict[current]])
     while True:
         # CHECK FOR MINIMUM HEURISTIC in OPEN SET
+        if len(opened) == 0 :
+            return [], [], []
         current = min(opened, key = lambda x : x[1])
         # CHECKED_NODE
         checked_node = current[0]
