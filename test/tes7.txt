@@ -1,0 +1,19 @@
+8
+Puri LMP RSPuri Hypermarket Pasar Kelurahan Pemadam Kejaksaan 
+Puri 0 -1
+LMP 3 3
+RSPuri 9 7
+Hypermarket 4 4 
+Pasar 10 9
+Kelurahan 7 8
+Pemadam 8 10
+Kejaksaan 0 0
+MATRIKS
+0 1 1 0 0 0 0 1
+0 0 0 1 0 0 1 0
+1 0 0 0 1 0 1 0
+1 1 0 0 1 0 0 0
+1 0 0 0 0 1 0 0
+0 0 1 0 1 1 0 1
+0 0 0 1 0 1 0 1
+0 0 1 1 0 0 1 0
