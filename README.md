@@ -31,6 +31,9 @@ install networkx dan matplotlib
 di cmd masing:
 pip install networkx
 pip install matplotlib
+pip install geopy
+pip install gmaps
+pip install request
 
 Lalu jalankan Main.py
 

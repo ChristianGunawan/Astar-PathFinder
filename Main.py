@@ -2,7 +2,8 @@ from read_input import *
 from PathFinder import *
 from graph import *
 
-while True:
+status = True
+while status:
     a = treeDict
     listTempat = [nodes for nodes in a]
     # List nama tempat
@@ -23,4 +24,9 @@ while True:
         string_akhir = str(input("Masukkan tempat awal : "))
     # Membentuk graph
     graphMaker(string_awal, string_akhir)
-    break
+    
+    repeat = str(input("Mau mencoba dengan test-case lain ? : (Y/N)"))
+    if(repeat == 'Y' or status == 'y'):
+        a = treeDict
+    elif(repeat =="N" or repeat == "n"):
+        status = False
