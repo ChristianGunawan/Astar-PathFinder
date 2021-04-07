@@ -25,9 +25,9 @@ version 1.0
 
 ## Setup
 Disarankan menggunakan vscode, agar menggunakan python environment yang sama
-install networkx dan matplotlib
 
 di cmd masing:
+
 pip install networkx
 
 pip install matplotlib
@@ -39,11 +39,13 @@ pip install gmaps
 pip install request
 
 
-Untuk masukan file biasa :
-Langsung jalankan Main.py
+# Untuk masukan file biasa :
 
-Untuk berinteraksi dengan Google Map API:
-Jalankan test.ipynb
+# Langsung jalankan Main.py
+
+# Untuk berinteraksi dengan Google Map API:
+
+# Jalankan test.ipynb
 
 ## Code Examples
 Show examples of usage:
