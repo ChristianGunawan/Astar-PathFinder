@@ -25,7 +25,7 @@ while status:
     # Membentuk graph
     graphMaker(string_awal, string_akhir)
     
-    repeat = str(input("Mau mencoba dengan test-case lain ? : (Y/N)"))
+    repeat = str(input("Mau mencoba dengan test-case lain ? : (Y/N): "))
     if(repeat == 'Y' or status == 'y'):
         a = treeDict
     elif(repeat =="N" or repeat == "n"):
