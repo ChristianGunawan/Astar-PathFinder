@@ -1,0 +1,19 @@
+8
+Bonbin Salman BMG Rektorat Baltos Unisba Taman Borromeus
+Bonbin 0 -4 
+Salman -10 -5
+BMG -12 -5
+Rektorat -15 -7
+Baltos -16 -7
+Unisba -20 -9
+Taman 13 9
+Borromeus -10 -6
+MATRIKS
+0 1 1 0 0 0 0 1
+0 0 0 1 1 0 1 0
+1 0 0 0 1 0 0 0
+1 1 0 0 1 0 0 0
+1 0 0 1 0 1 0 0
+0 0 1 0 1 1 0 1
+0 0 0 1 0 1 0 1
+0 0 1 1 0 0 1 0
