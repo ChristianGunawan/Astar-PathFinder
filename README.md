@@ -1,6 +1,3 @@
-disarankan menjalankan dengan vs code, biar environmentnya sama, ga ngulang"
-kalo anaconda beda env soalnya :)
-
 # Tugas Kecil Strategi Algoritma : A*-PathFinder
 > Pada tugas kali ini, akan menentukan lintasan terpendek berdasarkan peta Google Map jalan-jalan di kota Bandung dengan menggunakan algoritma A* (dibaca A star). Dari ruas-ruas jalan di peta dibentuk graf. Simpul menyatakan persilangan jalan atau ujung jalan. Asumsikan jalan dapat dilalui dari dua arah. Bobot graf menyatakan jarak (m atau km) antar simpul. Jarak antara dua simpul dapat dihitung dari koordinat kedua simpul menggunakan rumus jarak Euclidean (berdasarkan koordinat) atau dapat menggunakan ruler di Google Map, atau cara lainnya yang disediakan oleh Google Map.
 
@@ -39,13 +36,8 @@ pip install gmaps
 pip install request
 
 
-## Untuk masukan file biasa :
-
-## Langsung jalankan Main.py
-
-## Untuk berinteraksi dengan Google Map API:
-
-## Jalankan test.ipynb
+## Untuk masukan file biasa : Langsung jalankan Main.py 
+## Untuk berinteraksi dengan Google Map API : Jalankan test.ipynb
 
 
 ### Features
@@ -63,3 +55,6 @@ Dibuat oleh :
  - 13519109 - Christian Alexandro Tobing
  - 13519199 - Christian Gunawan
 
+## Notes:
+disarankan menjalankan dengan vs code, biar environmentnya sama, ga ngulang"
+kalo anaconda beda env soalnya :)
