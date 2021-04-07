@@ -1,0 +1,21 @@
+9
+MargahayuRaya PentolCeker MetroTrade MetroIndah Agraria HumanaPrima Amanda Borma Triple3
+MargahayuRaya -4 -4
+PentolCeker -2 -3
+MetroTrade -3 0
+MetroIndah -2.5 2
+Agraria -6 4
+HumanaPrima 5 7
+Amanda 4 4
+Borma 3 3
+Triple3 0 -7
+MATRIKS
+0 1 0 0 0 1 1 1 1
+1 0 0 0 1 0 1 0 1
+0 0 1 1 1 0 0 1 0
+1 1 1 1 0 0 0 1 0
+0 0 1 0 1 1 0 0 1
+0 0 0 0 1 0 0 1 1
+0 1 1 1 0 0 1 1 0
+1 0 0 0 0 1 1 1 0
+0 0 0 1 1 1 1 0 1

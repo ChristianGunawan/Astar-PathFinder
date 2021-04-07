@@ -62,8 +62,8 @@ def read_input2():
     koordinatParse = toParse[:toParse.index("MATRIKS\n")]
     for placeCoordinate in koordinatParse:
         parsed = placeCoordinate.replace("\n","").split(" ")
-        coordinateDict[parsed[0]]["lat"] = int(parsed[1])
-        coordinateDict[parsed[0]]["lng"] = int(parsed[2])
+        coordinateDict[parsed[0]]["lat"] = float(parsed[1])
+        coordinateDict[parsed[0]]["lng"] = float(parsed[2])
 
     # Parsing matriks
     MATRIKS = []
