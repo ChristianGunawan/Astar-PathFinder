@@ -1,0 +1,19 @@
+8
+RSKebonJati Paskal Monumen Basamalah Paledang Cikawao Pungkur Otto
+RSKebonJati -2 3
+Paskal 4 5
+Monumen 6 7
+Basamalah 0 10
+Paledang 9 8
+Cikawao 5 9 
+Pungkur -3 4
+Otto -1 1
+MATRIKS
+1 0 0 1 0 1 0 1
+0 1 0 1 0 0 1 0
+1 0 1 0 0 0 0 0
+0 1 0 1 0 0 0 0
+0 1 0 0 1 1 0 0
+0 0 1 0 1 1 0 1
+0 0 0 1 0 1 1 1
+0 0 1 0 0 0 1 1
